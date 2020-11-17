@@ -6,3 +6,4 @@ metadata:
     app: pal-tracker
 data:
   welcome.message: "hello from kubernetes"
+  management.endpoints.web.exposure.include : "info,health,palTrackerFailure"
