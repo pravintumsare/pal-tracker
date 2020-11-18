@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: pal-tracker-container
-          image: pravintumsare/pal-tracker:v3
+          image: pravintumsare/pal-tracker:v4
           readinessProbe:
             httpGet:
               path: /actuator/health/readiness
