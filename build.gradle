@@ -33,7 +33,7 @@ bootRun.environment([
 ])
 
 test.environment([
-        "WELCOME_MESSAGE": "Hello from test",
+        "WELCOME_MESSAGE": "hello from kubernetes",
         "MANAGEMENT_ENDPOINTS_WEB_EXPOSURE_INCLUDE": "*",
         "MANAGEMENT_ENDPOINT_HEALTH_SHOWDETAILS": "always",
         "MANAGEMENT_HEALTH_PROBES_ENABLED": true

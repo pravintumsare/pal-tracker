@@ -9,7 +9,7 @@ public class WelcomeControllerTest {
 
     @Test
     public void itSaysHello() throws Exception {
-        WelcomeController controller = new WelcomeController("hello");
+        WelcomeController controller = new WelcomeController("hello from kubernetes");
         assertThat(controller.sayHello()).isEqualTo("hello from kubernetes");
     }
 }
