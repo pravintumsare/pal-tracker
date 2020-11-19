@@ -18,6 +18,7 @@ import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.*;
 
 public class TimeEntryControllerTest {
+
     private TimeEntryRepository timeEntryRepository;
     private TimeEntryController controller;
 
