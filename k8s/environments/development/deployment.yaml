@@ -7,10 +7,10 @@ spec:
     spec:
       containers:
         - name: pal-tracker-container
-          image: pravintumsare/pal-tracker:build-concourse.run_number
+          image: pravintumsare/pal-tracker:build-0.0.13
           env:
-            - name: SPRING_DATASOURCE_HIKARI_MAXIMUMPOOLSIZE
-              valueFrom:
+          - name: SPRING_DATASOURCE_HIKARI_MAXIMUMPOOLSIZE
+            valueFrom:
                 configMapKeyRef:
                   name: pal-tracker
                   key: spring.datasource.hikari.maximumpoolsize
