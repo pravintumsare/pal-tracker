@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: pal-tracker-container
-          image: pravintumsare/pal-tracker:v4
+          image: pravintumsare/pal-tracker:0.0.13
           envFrom:
             - secretRef:
                 name: db-credentials
