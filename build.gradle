@@ -33,6 +33,7 @@ bootRun.environment([
         "MANAGEMENT_HEALTH_PROBES_ENABLED": true,
         "MANAGEMENT_ENDPOINT_HEALTH_GROUP_READINESS_INCLUDE": "backingService",
         "SPRING_DATASOURCE_URL": "jdbc:postgresql://localhost:5432/tracker_dev?user=tracker&password=password",
+        "SPRING_DATASOURCE_HIKARI_MAXIMUMPOOLSIZE" : 1,
 ])
 
 test.environment([
@@ -41,4 +42,5 @@ test.environment([
         "MANAGEMENT_ENDPOINT_HEALTH_SHOWDETAILS": "always",
         "MANAGEMENT_HEALTH_PROBES_ENABLED": true,
         "SPRING_DATASOURCE_URL": "jdbc:postgresql://localhost:5432/tracker_test?user=tracker&password=password",
+        "SPRING_DATASOURCE_HIKARI_MAXIMUMPOOLSIZE" : 1,
 ])
